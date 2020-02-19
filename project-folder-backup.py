@@ -10,12 +10,14 @@
 
 #   imports
 import datetime, zipfile, shutil, os
-from filecmp import dircmp
+import filecmp
 
 #   global variable
 
 kah_remote = r'C:\Users\youngj42\Desktop\folder2'
 kah_local = r'C:\Users\youngj42\Desktop\folder1'
+
+output = r'.\test'
 
 
 
